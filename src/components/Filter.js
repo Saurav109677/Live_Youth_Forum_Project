@@ -211,13 +211,11 @@ export default (props) => {
                     cursor: "pointer"
                   }}
                   onClick={() => {
-                    if (
-                      confirm(
-                        "Are you sure? \n This will delete me from your group."
-                      ) === true
-                    ) {
-                      props.removeMem(d._id);
-                    }
+                    // if (
+                    //   confirm("Are you sure? \n This will delete me from your group.") === true
+                    // ) {
+                    //   props.removeMem(d._id);
+                    // }
                   }}
                 />
               </td>
