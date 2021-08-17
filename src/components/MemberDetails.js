@@ -239,7 +239,7 @@ export default (props) => {
                       <p>{d.firstName}</p>
                       <div style={{ float: "right" }}>
                         {sessionData.length &&
-                          sessionData.map((s, i = index) => {
+                          sessionData.map((s) => {
                             let foundArr =
                               sessionToMember &&
                               sessionToMember.filter((p) => {
@@ -263,7 +263,7 @@ export default (props) => {
                                       : "badge badge-danger"
                                   }
                                 >
-                                  {++i}
+                                  {/*++i*/}
                                 </span>
                                 <span> </span>
                               </>

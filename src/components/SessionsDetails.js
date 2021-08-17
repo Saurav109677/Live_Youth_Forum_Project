@@ -54,11 +54,11 @@ export default (props) => {
               <>
                 <tbody>
                   {sessions.length &&
-                    sessions.map((s, i = index) => (
+                    sessions.map((s, index) => (
                       <>
                         <tr key={s._id}>
-                          <th scope="row">{++i}</th>
-                          <td>Session{i}</td>
+                          <th scope="row">{++index}</th>
+                          <td>Session{index}</td>
                           <td>{s.topic}</td>
                           <td>
                             {/* <Link to={`/edit/${d._id}/${d.facilitator}`}> */}
