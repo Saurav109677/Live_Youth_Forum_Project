@@ -35,7 +35,7 @@ export default (props) => {
           // setTempData([...tempData, t[0]]);
           if (!tempData.length) tempData.push(t);
 
-          if (e.target.checked === true) document;
+          //if (e.target.checked === true) document;
 
           tempData.length &&
             tempData.map((t) => {
