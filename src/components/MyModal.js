@@ -75,7 +75,7 @@ export default (props) => {
           <br />
           <br />
           <form onSubmit={sessionFormSubmit}>
-            {props.sessionData.map((s, i = index) => {
+            {props.sessionData.map((s, i) => {
               //debugger;
 
               let foundArr =
