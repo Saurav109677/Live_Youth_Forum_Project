@@ -86,7 +86,7 @@ export default (props) => {
                         }}
                         onClick={() => {
                           if (
-                            confirm(
+                            window.confirm(
                               "Are you sure? \n This will delete me from your group.\n Please give me one more chance."
                             ) === true
                           ) {
